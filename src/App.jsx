@@ -1,9 +1,5 @@
-function App() {
-  return (
-    <div>
-      <h1>App Teste</h1>
-    </div>
-  );
-}
+import RoutesApp from "./routes";
+
+const App = () => <RoutesApp/>
 
 export default App;
