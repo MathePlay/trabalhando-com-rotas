@@ -14,7 +14,7 @@ header h2{
 }
 
 header a{
-  color: #FFF;
+  color: lightgrey;
   margin: 5px;
   background: none;
   border: none;
@@ -23,5 +23,5 @@ header a{
 }
 
 header a:hover{
-  color: gray;
+  color: #FFF;
 }
