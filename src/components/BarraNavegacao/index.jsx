@@ -1,19 +1,16 @@
 import { Link } from "react-router-dom"
-import './index.css'
+import './style.css'
 
-const BarraNavegacao = () => {
+function BarraNavegacao(){
   return (
-    <div>
-      <button>
+    <header>
+      <h2>Barra de Navegação</h2>
+      <div>
         <Link to="/">Home</Link>
-      </button>
-      <button>
         <Link to="/sobre">Sobre</Link>
-      </button>
-      <button>
         <Link to="/contato">Contato</Link>
-      </button>
-    </div>
+      </div>
+    </header>
   )
 }
 
